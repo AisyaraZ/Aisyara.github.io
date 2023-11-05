@@ -1,0 +1,61 @@
+/* Style untuk halaman utama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0074D9;
+    font-weight: bold;
+}
+
+/* Style untuk halaman pesan */
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #0074D9;
+    font-size: 24px;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056a6;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Halaman Pesan</title>
+</head>
+<body>
+    <h1>Semangat Kerjanya!</h1>
+    <p>Aku ada lagu buat kamu</p>
+    <img src="Lagu.jpeg" alt="untuk kamu">
+    <button id="kirimPesan">Kirim Pesan</button>
+    
+    <script>
+        const kirimButton = document.getElementById("kirimPesan");
+        kirimButton.addEventListener("click", () => {
+            const pesan = "Halo, semangat kerja!";
+            const nomorWhatsApp = "081274603897"; // Ganti dengan nomor WhatsApp yang dituju
+            const urlWhatsApp = `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
+            window.location.href = urlWhatsApp;
+        });
+    </script>
+</body>
+</html>
